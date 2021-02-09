@@ -1,11 +1,6 @@
 
 /**
-Aufgabe Nr./Task No.: H4
-Nachname/Last,Family Name:Hassan
-Vorname/First,Given Name: Omar
-Matrikelnummer/Matriculation number: 3071001
-Uni-Email: hassan.omar@stud.uni-due.de
-Studiengang/Course of Studies: ISE software engineering
+
 *************************************************/
 
 
@@ -160,13 +155,13 @@ int main()
 
     for( int k=7 ; k<1440 ;k+=20)
     {
-      train=new Train("s1", "Dortmound HBF", "Mülheim(Ruhr)styrum - Mülheim(Ruhr) - Essen ");
+      train=new Train("s1", "Dortmound HBF", "MÃ¼lheim(Ruhr)styrum - MÃ¼lheim(Ruhr) - Essen ");
 
           Duisburg.addDeparture(Time(k),9,train) ;
     }
     for(int k =15 ; k<1440; k+=20)
     {
-     train=new Train("s1","Solingen HBf","Duisburg-schlenk - Düsseldorf Flughafen" );
+     train=new Train("s1","Solingen HBf","Duisburg-schlenk - DÃ¼sseldorf Flughafen" );
 
            Duisburg.addDeparture(Time(k),5,train) ;
     }
@@ -178,13 +173,13 @@ int main()
     }
     for(int k=22; k<1440; k+=60)
     {
-        train=new Train("RE1","Aachen HBF ","Düsseldorf Flughafen -Düsseldorf - Köln");
+        train=new Train("RE1","Aachen HBF ","DÃ¼sseldorf Flughafen -DÃ¼sseldorf - KÃ¶ln");
 
           Duisburg.addDeparture(Time(k),4,train);
     }
      for(int k=24;k<1440;k+=60)
     {
-        train=new Train("RE2","Münster HBF","Mühlheim(Ruhr - Essen - Gelsenkirchen ");
+        train=new Train("RE2","MÃ¼nster HBF","MÃ¼hlheim(Ruhr - Essen - Gelsenkirchen ");
 
           Duisburg.addDeparture(Time(k),10,train);
     }
